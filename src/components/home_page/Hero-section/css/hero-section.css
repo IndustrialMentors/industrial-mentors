@@ -1,11 +1,18 @@
 .slide-data{
-    top: 15rem;
+    top: 12rem;
     left: 20rem;
     
 }
+.carousel-item{
+    height: 35rem;
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+}
 hr{
     height: 5px;
-    background: yellow;
+    background: black;
 
 }
 .banner{
@@ -20,3 +27,19 @@ hr{
     height: 100%;
     width: 100% ;
 }
+@media screen and (max-width: 480px) {
+    .banner-text {
+    }
+    .banner-text h4{
+        margin: 0% !important;
+        width: 100% !important;
+      }
+     .banner-text hr{
+        margin: 0% !important;
+      }
+     .banner-text p{
+        margin: 0% !important;
+        width: 100% !important;
+      }
+      
+  }

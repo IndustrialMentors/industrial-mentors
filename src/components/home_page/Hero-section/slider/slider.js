@@ -9,35 +9,41 @@ const Slider = () =>{
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active position-relative">
-      <img src="Images/slide.jpg" class="d-block w-100" alt="..."/>
+      <img src="Images/slide.jpg" class="d-none d-md-block w-100" alt="..."/>
+      <img src="Images/sslide.jpg" class="d-block d-md-none w-100" alt="..."/>
       <div class=" slide-data position-absolute  d-none d-md-block">
-        <h5 className="text-white">Unifying Talent</h5>
-        <h6 className="text-white">Educational Institutions, and Recruiters </h6> 
+        <h3 className="text-white">Unifying Talent</h3>
+        <hr />
+        <h4 className="text-white">Educational Institutions, and Recruiters </h4> 
         <p  className="text-white">Explore a world of opportunities to enrich your skills,<br/>
          bolster your resume, and secure your ideal career path<br/>
           on our platform.</p>
-        <button type="button" class="btn btn-outline-primary" >About Us</button>
+        <button type="button" class="btn btn-outline-light" >About Us</button>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="Images/slide.jpg" class="d-block w-100" alt="..."/>
+      <img src="Images/slide2.png" class="d-none d-md-block w-100" alt="..."/>
+      <img src="Images/sslide2.png" class="d-block d-md-none w-100" alt="..."/>
       <div class="slide-data position-absolute  d-none d-md-block">
-        <h5 className="text-white">Bringing Together Aspiring Talent</h5>
-        <h6 className="text-white">Leading Institutions, and Recruiters</h6>
-        <p  className="text-white">Discover global opportunities to learn, showcase your skills,<br/>
+        <h3 className="text-black">Bringing Together Aspiring Talent</h3>
+        <hr />
+        <h4 className="text-black">Leading Institutions, and Recruiters</h4>
+        <p  className="text-black">Discover global opportunities to learn, showcase your skills,<br/>
         enhance your CV, and secure your dream job through our platform.</p>
-        <button type="button" class="btn btn-outline-primary" >About Us</button>
+        <button type="button" class="btn btn-outline-info" >About Us</button>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="Images/slide.jpg" class="d-block w-100" alt="..."/>
+      <img src="Images/slide3.png" class="d-none d-md-block w-100" alt="..."/>
+      <img src="Images/sslide3.png" class="d-block d-md-none w-100" alt="..."/>
       <div class="slide-data position-absolute  d-none d-md-block">
-        <h5 className="text-white">Bridging the Gap</h5>
-        <h6 className="text-white">Between Talent and Education</h6> 
+        <h3 className="text-white">Bridging the Gap</h3>
+        <hr />
+        <h4 className="text-white">Between Talent and Education</h4> 
         <p  className="text-white">Explore a diverse range of opportunities to nurture your skills,<br/>
         elevate your resume, and pave the way towards your dream career<br/>
          through our platform.</p>
-        <button type="button" class="btn btn-outline-primary" >About Us</button>
+        <button type="button" class="btn btn-outline-dark" >About Us</button>
       </div>
     </div>
   </div>
