@@ -1,13 +1,8 @@
-.courses {
-    /* background-color: #f5feff; */
-    /* background-color: #C5DFF8; */
-}
 .card{
     transition: transform 0.5s ease;
 }
 .card:hover{
     transform: translateY(-10px);
-    /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.9); */
 }
 .star{
     border-radius: 25% 0 0 25%;
