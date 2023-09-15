@@ -1,7 +1,7 @@
 const Slider = () =>{
     return(
         <div>
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -27,7 +27,7 @@ const Slider = () =>{
       <div class="slide-data position-absolute  d-none d-md-block">
         <h3 className="text-black">Bringing Together Aspiring Talent</h3>
         <hr />
-        <h4 className="text-black">Leading Institutions, & Recruiters</h4>
+        <h4 className="text-black">Leading Institutions, and Recruiters</h4>
         <p  className="text-black">Discover global opportunities to learn, showcase your skills,<br/>
         enhance your CV, and secure your dream job through our platform.</p>
         <button type="button" class="btn btn-outline-info" >About Us</button>

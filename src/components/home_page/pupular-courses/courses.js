@@ -28,7 +28,7 @@ const Courses = () => {
         setCardLimit(cardLimit + 5)
     }
     return (
-        <div className="container-fluid p-4 mt-5">
+        <div className="container-fluid p-4">
             <div className="row justify-content-center">
                 <div className="col-12 text-center">
                     <h3 className="fs-3">Courses Available</h3>

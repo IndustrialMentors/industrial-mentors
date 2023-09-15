@@ -6,7 +6,7 @@ import { faEnvelope, faPlay } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <div className="text-center  main text-lg-start">
+    <div className="text-center  main text-lg-start mt-5">
       <div className="container-fluid p-4">
         {/* Grid row */}
         <div className="row">
