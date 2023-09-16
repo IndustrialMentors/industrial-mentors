@@ -16,7 +16,7 @@ const Courses = () => {
 
     // get data from json
     useEffect(() => {
-        axios.get('http://localhost:3004/courses')
+        axios.get('http://localhost:3000/courses')
             .then(function (response) {
                 setCoursesData(response.data);
             })
