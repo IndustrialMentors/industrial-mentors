@@ -1,7 +1,7 @@
 import '../navabar/navbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faBook, faBriefcase, faGraduationCap, faHome, faPhone, faUserGroup } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faBook, faBriefcase, faGraduationCap, faHome, faPhone, faSearch, faUserGroup } from '@fortawesome/free-solid-svg-icons'
 import Logo from '../../../assets/im-symbol.png'
 
 const Navbar = () => {
@@ -13,24 +13,42 @@ const Navbar = () => {
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className=""><FontAwesomeIcon icon={faBars} /></span>
                     </button>
+
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mt-1 mb-lg-0">
                             <li className="nav-item text-center iconFontSize">
-                                <FontAwesomeIcon icon={faHome} className='text-darkBlue'/>
+                                <FontAwesomeIcon icon={faHome} className='text-darkBlue' />
                                 <a className="nav-link py-0 active text-darkBlue" aria-current="page" href="#Home">Home</a>
                             </li>
-                            <li className="nav-item text-center iconFontSize">
+                            <li className="nav-item text-center iconFontSize dropdown">
                                 <FontAwesomeIcon icon={faGraduationCap} className='text-darkBlue' />
-                                <a className="nav-link py-0 text-darkBlue " href="#Course">Course</a>
+                                <a className="nav-link py-0 text-darkBlue dropdown-toggle" href="#Course" role="button" data-bs-toggle="dropdown" aria-expanded="false">Course</a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
                             </li>
+
                             <li className="nav-item text-center iconFontSize">
                                 <FontAwesomeIcon icon={faUserGroup} className='text-darkBlue' />
                                 <a className="nav-link py-0 text-darkBlue" href='#Membership'>Membership</a>
                             </li>
-                            <li className="nav-item text-center iconFontSize">
-                                <FontAwesomeIcon icon={faBriefcase} className='text-darkBlue' />
-                                <a className="nav-link py-0 text-darkBlue " href='#Jobs'>Jobs</a>
+
+                            <li className="nav-item text-center iconFontSize dropdown">
+                            <FontAwesomeIcon icon={faBriefcase} className='text-darkBlue' />
+                                <a className="nav-link py-0 text-darkBlue dropdown-toggle" href="#Course" role="button" data-bs-toggle="dropdown" aria-expanded="false">Jobs</a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
                             </li>
+
                             <li className="nav-item text-center iconFontSize">
                                 <FontAwesomeIcon icon={faBook} className='text-darkBlue' />
                                 <a className="nav-link py-0 text-darkBlue " href='#About'>About</a>
@@ -41,13 +59,26 @@ const Navbar = () => {
                             </li>
                             <li className='slide'></li>
                         </ul>
+
+
+
+                        <form class="d-flex mx-auto" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+
                         <div className='btn-sec'>
-                            <button className='btn btn-primary mx-2 px-4 rounded-pill'>Login</button>
-                            <button className='btn btn-danger rounded-pill'>Register</button>
+                            <button className='button'>Login</button>
                         </div>
                     </div>
+
+
+
+
                 </div>
             </nav>
+
+
         </>
     )
 }
