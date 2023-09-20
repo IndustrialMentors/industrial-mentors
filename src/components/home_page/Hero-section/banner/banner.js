@@ -4,7 +4,7 @@ const Banner = () => {
       <div className="col-md-6 banner-text m-auto ">
         <h4 className="ms-auto w-75">Empowering Developers <br /> Guiding Futures</h4>
         <hr className="mx-auto text-white w-50 " />
-        <p className="ms-auto w-75 color-primory ">
+        <p className="ms-auto w-75 color-pr ">
           <strong className="text-decoration-underline">Discover the World of Coding</strong> Explore our programming courses and
           mentorship programs designed to nurture your development skills.
           <br/>

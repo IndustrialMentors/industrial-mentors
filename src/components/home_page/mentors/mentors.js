@@ -5,17 +5,16 @@ import Trainer from "./trainer/trainer";
 const Mentors = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 1024 },
-      items: 4,
+      items: 3,
     },
     desktop: {
       breakpoint: { max: 1024, min: 800 },
-      items: 3,
+      items: 2,
     },
     tablet: {
       breakpoint: { max: 800, min: 464 },
-      items: 2,
+      items: 1,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -24,7 +23,7 @@ const Mentors = () => {
   };
 
   return (
-    <div className="container-fluid col-10">
+    <div className="container-fluid my-5 col-10">
       <Carousel responsive={responsive}>
         <Trainer />
         <Trainer />
@@ -34,7 +33,6 @@ const Mentors = () => {
         <Trainer />
         <Trainer />
         <Trainer />
-
       </Carousel>
     </div>
   );
