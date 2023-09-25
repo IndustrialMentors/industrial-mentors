@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Navbar from "./components/home_page/navabar/navbar";
 import HeroSection from"./components/home_page/Hero-section/hero-section";
 import Companies from "./components/home_page/hiring slider/hiringpartners"

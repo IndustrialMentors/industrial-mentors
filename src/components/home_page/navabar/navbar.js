@@ -1,5 +1,4 @@
-import '../navabar/navbar.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import '../navabar/navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faBook, faBriefcase, faGraduationCap, faHome, faPhone, faSearch, faUserGroup } from '@fortawesome/free-solid-svg-icons'
 import Logo from '../../../assets/im-symbol.png'
