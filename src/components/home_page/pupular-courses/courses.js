@@ -16,7 +16,7 @@ const Courses = () => {
 
     // get data from json
     useEffect(() => {
-        axios.get('https://industrialmentors.vercel.app/api/coursesData.js')
+        axios.get('https://industrialmentors.vercel.app/server/db.json/courses')
             .then(function (response) {
                 setCoursesData(response.data);
             })
