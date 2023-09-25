@@ -7,6 +7,7 @@ import Courses from "./components/home_page/pupular-courses/courses";
 import Advantages from "./components/home_page/training-advantages/training-advantages";
 import Intro_vid from "./components/home_page/Intro-video/Intro_vid";
 import Footer from "./components/home_page/footer/footer";
+import Testimonial from "./components/home_page/testimonial/testimonial";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Courses />
       <Advantages/>
       <Intro_vid />
+      <Testimonial />
       <Footer />
     </div>
   );
