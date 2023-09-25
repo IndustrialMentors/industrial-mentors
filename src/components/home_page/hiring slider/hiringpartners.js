@@ -10,9 +10,6 @@ import geico from "../../../assets/geico.png";
 const Companies = () => {
     return (
         <div>
-
-
-
             <div className='m-5  text-center'>
                 <h1>Top Companies trust Us</h1>
 

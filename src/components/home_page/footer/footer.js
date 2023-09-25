@@ -6,7 +6,7 @@ import { faEnvelope, faPlay } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <div className="text-center  main text-lg-start">
+    <div className="text-center  main text-lg-start mt-5">
       <div className="container-fluid p-4">
         {/* Grid row */}
         <div className="row">
@@ -78,7 +78,7 @@ const Footer = () => {
               Contact
             </h6>
             <div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7561385.9486516565!2d77.45928227062203!3d22.274846207396138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba3609977101b%3A0x7f6ef7eed6e2f105!2sIndustrial%20Mentors!5e0!3m2!1sen!2sin!4v1694423886685!5m2!1sen!2sin" className="w-100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7561385.9486516565!2d77.45928227062203!3d22.274846207396138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba3609977101b%3A0x7f6ef7eed6e2f105!2sIndustrial%20Mentors!5e0!3m2!1sen!2sin!4v1694423886685!5m2!1sen!2sin" className="w-100" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <p>
               <i className="fas fa-home mr-3"></i> Cannaught Place,Cidco,Chha.Sambhajinagar.
