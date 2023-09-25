@@ -16,12 +16,12 @@ const Courses = () => {
 
     // get data from json
     useEffect(() => {
-        axios.get('https://industrialmentors.vercel.app/api/coursesData')
+        axios.get('https://industrialmentors.vercel.app/api/coursesData.js')
             .then(function (response) {
                 setCoursesData(response.data);
             })
             .catch(function (error) {
-                console.log(error);
+                console.log(error,'hello');
             })
     }, [])
     const increaseLimit = () => {
