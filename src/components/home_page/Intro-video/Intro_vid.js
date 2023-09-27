@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./intro_vid.css";
 
-export default function Intro_vid() {
+const Intro_vid=()=> {
   return (
     <div className="video-section">
       <div className="container-fluid video-section">
@@ -36,3 +36,4 @@ export default function Intro_vid() {
     </div>
   );
 }
+export default Intro_vid;

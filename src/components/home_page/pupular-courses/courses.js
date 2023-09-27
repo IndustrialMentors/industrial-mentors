@@ -1,9 +1,5 @@
 import './courses.css';
-import 'bootstrap/dist/css/bootstrap.css';
-import { FaRegHeart } from "react-icons/fa6";
-import { FaHeart } from 'react-icons/fa6';
-import { FaRegClock } from 'react-icons/fa6';
-import { FaStar } from 'react-icons/fa6';
+import { FaRegHeart,FaStar,FaHeart,FaRegClock } from "react-icons/fa6";
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 const Courses = () => {
@@ -19,16 +15,17 @@ const Courses = () => {
         axios.get('http://localhost:3004/courses')
             .then(function (response) {
                 setCoursesData(response.data);
+                console.log(response.data);
             })
             .catch(function (error) {
-                console.log(error);
+                console.log(error,'hello');
             })
     }, [])
     const increaseLimit = () => {
         setCardLimit(cardLimit + 5)
     }
     return (
-        <div className="container-fluid p-4 mt-5">
+        <div className="container-fluid p-4">
             <div className="row justify-content-center">
                 <div className="col-12 text-center">
                     <h3 className="fs-3">Courses Available</h3>

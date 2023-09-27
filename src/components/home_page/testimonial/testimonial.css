@@ -1,0 +1,53 @@
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.testimonial{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    row-gap: 20px;
+}
+
+.profile_image{
+    width: 8%;
+    height: 8%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.slide p {
+    padding: 0 15rem;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.leftQuote{
+    color: blue;
+    font-size: 1.2rem;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details span:first-child{
+    font-weight: 500;
+}
