@@ -19,7 +19,7 @@ export default function Intro_vid() {
                 Limitless learning, <br />
                 more possibilities...
               </h3>
-              <p className="ms-md-5 pt-3 pb-2">
+              <p className="ms-md-5 pt-3 pb-2 pe-2">
                 Online courses open the opportunity for learning to almost
                 anyone regardless of their scheduling commitments.
               </p>

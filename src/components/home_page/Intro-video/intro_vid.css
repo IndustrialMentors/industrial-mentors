@@ -1,5 +1,5 @@
 .video-section{
-    background-image: linear-gradient(180deg, #E6FFFD, #A8DF8E);
+    background-image: linear-gradient(1800deg, #ffffff, #C5DFF8);
 }
 video{
     border-radius: 0.7rem;
@@ -7,11 +7,6 @@ video{
 video:hover{
     border-radius: 0rem;
 }
-.ratio-16x9 {
-    @include media-breakpoint-up(md) {
-      --bs-aspect-ratio: 50%;
-    }
-  }
 .side-intro{
     border: 2px solid #426fbe;
     border-radius: 3px;

@@ -1,0 +1,33 @@
+.counter{
+    background-image: linear-gradient(180deg,  #656a90, #ffffff);
+    font-family: 'poppins';
+}
+.counter h4{
+    color:#f8f8f9;
+    font-size: 40px;
+}
+.counter p{
+    font-size: 18px;
+    color: #d8d9e1;
+}
+.counter_number{
+    position: relative;
+    height: 10rem;
+    width: 10rem;
+    flex-wrap: wrap;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 2rem;
+    background-color: rgb(187, 213, 248);
+    box-sizing: border-box;
+}
+.counter_number h4{
+    font-size: 15px;
+    color: #656a90;
+}
+.counter_number p{
+    color:rgb(32, 59, 109);
+    font-size: 35px;
+    padding-top: 1rem;
+}
