@@ -1,5 +1,5 @@
 // democ ,mdvdlk
-import "./css/hero-section.css";
+import "./hero-section.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle"
 import Slider from "./slider/slider";
