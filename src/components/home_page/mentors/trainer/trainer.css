@@ -1,7 +1,10 @@
 .cardt{
     width: 25rem;
-    pointer-events: none;
+    /* pointer-events: none;s */
     border:  solid #4A55A2 3px;
+}
+.cardt:hover{
+    transform: scale(0.9);
 }
 .upcard{
     height: 10rem;

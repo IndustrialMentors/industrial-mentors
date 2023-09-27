@@ -24,6 +24,7 @@ const Mentors = () => {
 
   return (
     <div className="container-fluid my-5 col-10">
+      <h1 className="ms-auto text-center">Our Mentors</h1>
       <Carousel responsive={responsive}>
         <Trainer />
         <Trainer />

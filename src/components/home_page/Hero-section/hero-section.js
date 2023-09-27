@@ -7,7 +7,6 @@ import Banner from "./banner/banner";
 const HeroSection = () =>{
     return(
         <div className="hero-section">
-            <h1 className="">Hello</h1>
             <Slider />
             <Banner />
         </div>

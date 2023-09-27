@@ -9,7 +9,7 @@ const Trainer = () => {
             <img
               className="rounded-circle border border-5 "
               src="./images/mentor_pic.jpg"
-              alt=""/>
+              alt="mentor pic"/>
           </div>
         </div>
         <div class="card-body mentor-body">
