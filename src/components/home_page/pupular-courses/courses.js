@@ -1,9 +1,5 @@
 import './courses.css';
-import 'bootstrap/dist/css/bootstrap.css';
-import { FaRegHeart } from "react-icons/fa6";
-import { FaHeart } from 'react-icons/fa6';
-import { FaRegClock } from 'react-icons/fa6';
-import { FaStar } from 'react-icons/fa6';
+import { FaRegHeart,FaStar,FaHeart,FaRegClock } from "react-icons/fa6";
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 const Courses = () => {
@@ -16,9 +12,10 @@ const Courses = () => {
 
     // get data from json
     useEffect(() => {
-        axios.get('https://industrialmentors.vercel.app/server/db.json/courses')
+        axios.get('http://localhost:3004/courses')
             .then(function (response) {
                 setCoursesData(response.data);
+                console.log(response.data);
             })
             .catch(function (error) {
                 console.log(error,'hello');
